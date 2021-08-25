@@ -1,0 +1,98 @@
+.nav-bar{
+  height: 90px;
+  width: 100%;
+  border-radius: 5px;
+  background:linear-gradient(lightgreen,rgba(2, 183, 228, 0.993));
+}
+.btndiv{
+  height: 100%;
+  float: left;
+  width: 45%;
+  margin-top: 20px;
+}
+h2{
+  margin-top: 20px;
+  padding-left: 60px;
+    color: whitesmoke;
+    font-size: 44px;
+    text-shadow: 0px 0px 10px rgba(3, 103, 128, 0.993);
+}
+.usersbtn{
+  color: lightgreen;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  float: right;
+  border-radius: 10px;
+  border: 2px solid lightgreen;
+  background-color: #FDFFF0;
+  padding: 10px 10px;
+  margin: 0 10px 0 0;
+}
+.usersbtn:hover{
+  color: #FDFFF0;
+  border: 2px solid #FDFFF0;
+  background-color: lightgreen;
+  box-shadow: 0px 0px 10px rgba(2, 183, 228, 0.993);
+  cursor: pointer;
+}
+.brand{
+  height: 100%;
+  float: left;
+  width: 50%;
+}
+.profilecontainer{
+  float: left;
+  margin-top: 20px;
+  width: 25%;
+  margin-right: 0px;  
+}
+.useravatar{
+  border: 5px solid rgba(2, 183, 228, 0.993);
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.lastdiv{
+  margin-left: 100px;
+}
+.profile {
+  box-shadow: 0px 10px 20px lightgreen;
+  width: 200px;
+  height: 200px;
+  margin: 20px 5px;
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+  padding-bottom: 100px;
+  border-radius: 10px;
+  background-color: lightgreen;
+  transition: 0.5s;
+}
+.profile:hover{
+  box-shadow: 0px 10px 20px rgba(2, 183, 228, 0.993);
+  transform: translateY(-5px);
+  background-color: rgba(2, 183, 228, 0.993);
+  cursor: pointer;
+}
+.uemail {
+  color: rgba(2, 183, 228, 0.993);
+  font-size: 16px;
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  overflow-wrap: anywhere;
+}
+.uname{
+  font-size:22px;
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+.uid{
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.loader{
+  margin-left: auto;
+  margin-right: auto;
+}
